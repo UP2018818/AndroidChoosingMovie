@@ -1,0 +1,90 @@
+0,1,1,start,-
+1,2,89,Are you in the mood for a non-Fiction or Fiction movie?,1 - Non-fiction      2 - fiction
+2,3,13,Would you like to watch a movie about an event or a biopic?,1 - Events      2 - Biopic
+3,4,6,-,Would you like to watch a movie about a Historical Event
+4,5,5,Outputs movies about a Historical Event,-
+5,22,1,-,Did you like the Non-Fiction movies you were suggested?
+6,7,8,-,Would you like to watch a movie about Human Innovation or Discoveries
+7,5,5,Outputs movies about Human Innovation or Discoveries,-
+8,9,10,-,Would you like to watch a movie about Man-made Disaster
+9,5,5,Outputs movies about Man-made Disasters,-
+10,11,12,-,Would you like to watch a movie about a Natural Disaster
+11,5,5,Outputs movies about Natural Disasters,-
+12,2,0,-,"Those are the Event None-fiction genres, would you like to go again for non-fiction? 12"
+13,15,16,Would you like to watch a movie about a motivational speaker or success story?,1 - Motivational Speaker     2 - Success story
+14,23,24, - ,Would you like to watch an action/adventure Comedy Movie?
+15,5,5,Outputs movies about a motivational speaker or success story,-
+16,17,18,-,Would you like to watch a movie about a Political Figure
+17,5,5,Outputs movies about  Political Figures,-
+18,19,20,-,Would you like to watch a movie about an Altruist or an Activist
+19,5,5,Outputs movies about Altruist or Activist,-
+20,21,25,-,Would you like to watch a movie about a Criminal
+21,5,5,Outputs movies about a Criminal,-
+22,-1,-1,Thank you for using this application ENJOY your Movie.,-
+23,62,62,Output a list of Action Comedy Movies, -
+24,26,27, - , Would you like to watch an action/adventure Family Movie?
+25,2,1,-,Those are the Biography None-fiction genres would you like to go again for non-fiction?
+26,62,62,Output a list of action/adventure Family movies, -
+27,28,30, - ,Would you like to watch an action/adventure romance?
+28,62,62,Output a list of action/adventure Romance Movies, -
+29,22,0,-,Did you like the Fiction movies you were suggested?
+30,31,32, - , Would you like to watch an action/adventure Sci-Fi or Fantasy movie?
+31,62,62, Output a list of action/adventure Sci-fi/Fantasy Movies, -
+32,35,61, If not; here's a list of general Action/Adventure movies ,Would you like to watch an action/adventure with Mystery/Crime?
+33,34,36,-,Would you like to watch an Action/Adventure movie?
+34,14,61, - ,Would you like to specify the genre of the action/adventure movies?
+35,62,62,Output a list of movies action/adventure with Mystery/Crime, -
+36,37,50, - , Would you like to watch a Comedy Movie?
+37,38,40, - ,Would you like to specify the genre of the comedy movies?
+38,39,41, - ,Would you like to watch a comedy Romance?
+39,47,47,Output a list of Comedy Romance Movies,-
+40,47,47,Output a list of Comedy Movies, -
+41,42,43, - ,Would you like a comedy with Fantasy or Sci-fi?
+42,47,47,Output a list of Comedy with Fantacy & Sci-fi, -
+43,44,45, - ,Would you like a comedy with Horror & Thriller?
+44,47,47,Output a list of Comedy with Horror & Thriller,-
+45,46,40,If not; here's a list of general Comedy movies, Would you like a comedy with Mystery/Crime?
+46,47,47,Output a list of Comedy with Mystery/Crime,-
+47,22,48,-,Did you like the comedy movies you were given?
+48,37,1,If not you will be sent to the start,Would you like to go for comedy movies again?
+49,22,59,-,Did you like the Romance movies you were given?
+50,51,63,-,Would you like to watch a Romance Movie?
+51,53,52,-,Would you like to specify the genre of the Romance movies?
+52,49,49,Output a list of Romance Movies,-
+53,54,55,-,Would you like a Romance with Fantasy or Sci-fi?
+54,49,49,Output a list of Romance with Fantacy/Sci-fi, -
+55,56,57,-,Would you like a Romance with Horror & Thriller?
+56,49,49,Output a list of Romance with Horror & Thriller,-
+57,58,52,If not; here's a list of general Romance movies,Would you like a Romance with Mystery/Crime?
+58,49,49,Output a list of Romance with Mystery/Crime,-
+59,51,1,If not you will be sent to the start,Would you like to go for Romance movies again?
+60,34,1,If not you will be sent to the start,Would you like to go for Action movies again?
+61,62,62,Output a list of Action Movies,-
+62,22,60,-,Did you like the Action movies you were given?
+63,64,72,-,Would you like to watch a Sci-fi/Fantasy Movie?
+64,65,67,-,Would you like to specify the genre of the Sci-fi/Fantasy movies?
+65,66,68,-,Would you like a Sci-fi/Fantasy with Horror/Thriller?
+66,70,70,Output a list of Sci-fi/Fantasy with Horror & Thriller,-
+67,70,70,Output a list of Sci-fi/Fantasy Movies,-
+68,69,67,If not; here's a list of general Sci-fi/Fantasy movies,Would you like a Sci-fi/Fantasy with Mystery/Crime?
+69,70,70,Output a list of Sci-fi/Fantasy with Mystery/Crime,-
+70,22,71,-,Did you like the Sci-fi/Fantasy movies you were given?
+71,64,1,If not you will be sent to the start,Would you like to go for Sci-fi/Fantasy movies again?
+72,73,79,-,Would you like to watch a Horror/Thriller Movie?
+73,74,78,-,Would you like to specify the genre of the Horror/Thriller movies?
+74,75,78,If not; here's a list of general Horror/Thriller movies,Would you like a Horror with Mystery/Crime?
+75,76,76,Output a list of Horror with Mystery/Crime,-
+76,22,77,-,Did you like the Horror movies you were given?
+77,73,1,If not you will be sent to the start,Would you like to go for Horror movies again?
+78,76,76,Output a list of Horror Movies,-
+79,80,88,-,Would you like to watch a Mystery/Crime Movie?
+80,81,85,-,Would you like to specify the genre of the Mystery/Crime movies?
+81,82,85,If not; here's a list of general Mystery/Crime movies,Would you like a Mystery/Crime Family movie?
+82,83,83,Output a list of Mystery/Crime Family movies,-
+83,22,84,-,Did you like the Mystery/Crime movies you were given?
+84,80,1,If not you will be sent to the start,Would you like to go for Mystery/Crime movies again?
+85,83,83,Output a list of Mystery/Crime Movies,-
+86,22,1,If not you will be sent to the start,Did you like the Family movies you were given?
+87,86,86,Output a list of Family Movies,-
+88,87,1,These are all the Fiction genres; if you not you will be sent to the start,Would you like to watch a Family Movie?
+89,33,33,Here's the genre's that will be provided in order,- Action/Adventure - Comedy - Romance - Fantasy/Sci-fi - Horror/Thriller - Mystery/Crime - Family
